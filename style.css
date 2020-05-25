@@ -1,0 +1,13 @@
+body {
+  padding-left: 11em;
+  font-family: "Times New Roman", Times, serif;
+  color: #222222;
+  background-color: #66c2ff }
+
+h1 {
+  font-family: Helvetica, sans-serif }
+
+a:link {
+  color: blue }
+a:visited {
+  color: purple }
