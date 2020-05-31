@@ -1,11 +1,12 @@
 body {
-  padding-left: 11em;
-  font-family: "Times New Roman", Times, serif;
+  padding-left: 1em;
+  padding-right: 1em
+  font-family: "Times";
   color: #222222;
   background-color: #66c2ff }
 
 h1 {
-  font-family: Helvetica, sans-serif }
+  font-family: Helvetica, sans-serif ;}
 
 
 
@@ -16,6 +17,9 @@ h1 {
 
 body {
   margin: 0;
+}
+p{
+  font-family: Times;
 }
 
 /* Style the header */
@@ -35,7 +39,7 @@ body {
 .topnav a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #f2f2f3;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -45,4 +49,11 @@ body {
 .topnav a:hover {
   background-color: #2dd;
   color: black;
+}
+
+
+/* MY TABLE Stuff */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
 }
