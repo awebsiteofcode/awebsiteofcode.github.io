@@ -50,7 +50,9 @@ p{
   background-color: #2dd;
   color: black;
 }
-
+<p {
+  font-family: cursive;
+}
 
 /* MY TABLE Stuff */
 table, th, td {
