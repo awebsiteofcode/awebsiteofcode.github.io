@@ -47,7 +47,7 @@ p{
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #2dd;
+  background-color: #125f;
   color: black;
 }
 <p {
@@ -58,4 +58,27 @@ p{
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+}
+
+
+
+/* Add a card effect for articles */
+.card {
+   background-color: black;
+   padding: 20px;
+   margin-top: 20px;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
 }
