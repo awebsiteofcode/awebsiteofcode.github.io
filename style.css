@@ -6,7 +6,7 @@ body {
   background-color: #66c2ff }
 
 h1 {
-  font-family: Helvetica, sans-serif, cursive ;}
+  font-family: Helvetica, sans-serif,  ;}
 
 
 
@@ -19,8 +19,9 @@ body {
   margin: 0;
 }
 p{
-  font-family: Times;
+  font-family: 'Quantico', sans-serif;
 }
+/*font-family: Times;*/
 
 /* Style the header */
 .header {
@@ -50,7 +51,7 @@ p{
   background-color: #00ffff;
   color: black;
 }
-<p {
+p {
   font-family: cursive;
 }
 
