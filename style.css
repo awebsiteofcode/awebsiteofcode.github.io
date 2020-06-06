@@ -64,10 +64,14 @@ table, th, td {
 
 /* Add a card effect for articles */
 .card {
-   background-color: [purple];
+   background-color: purple;
    padding: 20px;
    margin-top: 20px;
 }
+.card1 {
+   background-color: green;
+   padding: 20px;
+   margin-top: 20px;
 /* Clear floats after the columns */
 .row:after {
   content: "";
