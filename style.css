@@ -51,8 +51,7 @@ p{
   background-color: #00ffff;
   color: black;
 }
-p {
-  font-family: cursive;
+
 }
 
 /* MY TABLE Stuff */
@@ -65,7 +64,7 @@ table, th, td {
 
 /* Add a card effect for articles */
 .card {
-   background-color: green;
+   background-color: [purple];
    padding: 20px;
    margin-top: 20px;
 }
