@@ -11,7 +11,28 @@
           <link rel="icon" type="image/png" href="favicon.ico">
           <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
         </head>
-    <body>
+    <body onload = "startGame()"> 
+    <script>
+      function startGame() {
+      myGamePiece = new component(30, 30, "red", 10, 120);
+      myGamePiece.gravity = 0.05;
+      myScore = new component("30px", "Consolas", "black", 280, 40, "text");
+      myGameArea.start();
+    }
+
+    var myGameArea = {
+      canvas : document.createElement("canvas"),
+      start : function() {
+        this.canvas.width = 480;
+        this.canvas.height = 270;
+        this.context = this.canvas.getContext("2d");
+        document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+        this.frameNo = 0;
+      },
+      clear : function() {
+        this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+      }
+    }</script>
       <!-- navigation bar, this code on every page-->
       <div class="header">
         <h1>Noah's Website</h1>
@@ -29,26 +50,7 @@
 
       <!--end navigation bar-->
 <h1>Hi this is where all my HTML coded games are!</h1>
-function startGame() {
-  myGamePiece = new component(30, 30, "red", 10, 120);
-  myGamePiece.gravity = 0.05;
-  myScore = new component("30px", "Consolas", "black", 280, 40, "text");
-  myGameArea.start();
-}
 
-var myGameArea = {
-  canvas : document.createElement("canvas"),
-  start : function() {
-    this.canvas.width = 480;
-    this.canvas.height = 270;
-    this.context = this.canvas.getContext("2d");
-    document.body.insertBefore(this.canvas, document.body.childNodes[0]);
-    this.frameNo = 0;
-  },
-  clear : function() {
-    this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
-  }
-}
 
 
 
