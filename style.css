@@ -25,7 +25,7 @@ p{
 
 /* Style the header */
 .header {
-  background-color: #f1f1f1;
+  background: <img src="images/marvel.jpg" alt="marvelPicture" width="304" height="173">;
   padding: 20px;
   text-align: center;
 }
