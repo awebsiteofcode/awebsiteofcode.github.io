@@ -21,7 +21,7 @@ var myGameArea = {
         this.interval = setInterval(updateGameArea, 20);
         },
     clear : function() {
-        this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+        this.context.clearRect(0, 0, this.canvas.width, this.canvas.height); //rectangle
     }
 }
 
@@ -44,7 +44,8 @@ function component(width, height, color, x, y, type) {
             ctx.fillText(this.text, this.x, this.y);
         } else {
             ctx.fillStyle = color;
-            ctx.fillRect(this.x, this.y, this.width, this.height);
+          ctx.elllipse(this.x, this.y, this.width, this.height);// rectangle
+            ////  ctx.fillRect(this.x, this.y, this.width, this.height);// rectangle
         }
     }
     this.newPos = function() {
