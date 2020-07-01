@@ -69,7 +69,7 @@ table, th, td {
 
 /* Add a card effect for articles */
 .card {
-   background-color: #00ffff;
+   background-color: ###FF6600;
    padding: 20px;
    margin-top: 20px;
 }
@@ -79,7 +79,7 @@ table, th, td {
    margin-top: 20px;
  }
    .card2 {
-      background-color: #CC0000;
+      background-color: #8000B2;
       padding: 20px;
       margin-top: 20px;
     }
