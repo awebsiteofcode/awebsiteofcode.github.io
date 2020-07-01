@@ -83,6 +83,11 @@ table, th, td {
       padding: 20px;
       margin-top: 20px;
     }
+      .card3 {
+         background-color: #8000B2 ;
+         padding: 20px;
+         margin-top: 20px;
+    }
 /* Clear floats after the columns */
 .row:after {
   content: "";
