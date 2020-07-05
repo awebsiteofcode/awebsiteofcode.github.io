@@ -34,7 +34,24 @@
 <!--end navigation bar-->
 
 
-<h1>Hi this is where all my HTML coded games are!</h1>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("#hide").click(function(){
+    $("p").hide();
+  });
+  $("#show").click(function(){
+    $("p").show();
+  });
+});
+</script>
+</head>
+<body>
+
+<p>If you click the hide I will disappear, And if you click show I will appear!</p>
+
+<button id="hide">Hide</button>
+<button id="show">Show</button>
 
 
 <div id="sketch-holder">
