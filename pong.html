@@ -14,10 +14,17 @@
 </head>
 
       <!--end navigation bar-->
-<canvas id="myCanvas" width="200" height="100"></canvas>
+  
       <script src="sketch.js"></script>
     <script src="Paddle.js"></script>
-<script>
+    <script>
+      function setup() {
+        createCanvas(624, 351);
+      }
+
+      function draw() {
+        background(0);
+      }
 class Paddle {
 
     constructor(x) {
