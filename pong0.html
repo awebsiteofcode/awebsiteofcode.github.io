@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <title>Noah's website </title>
+        <meta charset="utf-8">
+          <meta name="description" content="Coding, Movie making, For kids and more...">
+          <meta name="keywords" content="HTML, CSS, JavaScript">
+          <meta name="author" content="Dark Wolf">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="icon" type="image/png" href="favicon.ico">
+          <link href="https://fonts.googleapis.com/css2?family=Quantico&display=swap" rel="stylesheet">
+
+  </head>
+    <body>
+      <!-- navigation bar, this code on every page-->
+      <div class="header">
+        <h1>Noah's Website</h1>
+      </div>
+
+      <div class="topnav">
+        <a href="index.html">Homepage</a>
+        <a href="games.html">Games</a>
+        <a href="media.html">Media</a>
+        <a href="blog.html">My Blog</a>
+        <a href="mylegostuff.html">My Lego Stuff!</a>
+        <a href="jokeoftheday.html">The Joke of the Day!</a>
+        <a href="about.html">About</a>
+        <a href="links.html">Links</a>
+      </div>
+
+      <!--end navigation bar-->
+      let playerPaddle;
+
+      function setup() {
+        createCanvas(624, 351);
+        playerPaddle = new Paddle(26);
+      }
+
+      function draw() {
+        background(0);
+        playerPaddle.display();
+      }
+
+
+
+    </body>
+</html>
