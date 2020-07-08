@@ -1,15 +1,16 @@
 let playerPaddle;
 let aiPaddle;
 let ball; // define the ball
-var myscore;
-
+let playerScore;
+let aiScore;
 
 function setup() {
   createCanvas(624, 351);
     playerPaddle = new Paddle(26);
     aiPaddle = new Paddle(width - 48);
     ball = new Ball(); // create the ball object
-
+    playerScore = new Score(width / 2 - 40);
+    aiScore = new Score(width / 2 + 40);
 }
 
 
