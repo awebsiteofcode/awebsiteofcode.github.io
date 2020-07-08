@@ -9,3 +9,4 @@ function setup() {
   background(100, 100, 100);
   noStroke();
   ellipse(1299,122,122,122);
+}
