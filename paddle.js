@@ -25,5 +25,12 @@ class Paddle {
             this.y += 2;
         }
     }
-
+   update() {
+        if (this.isUp) {
+            this.up();
+        }
+        else if (this.isDown) {
+            this.down();
+        }
+    }//end of update
 }
