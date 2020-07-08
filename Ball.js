@@ -7,14 +7,18 @@ class Ball{
     }
 
 
-    update() {
+    update(playerScore, aiScore) {
         // if it hits the top or bottom change direction
         if (this.y < this.r || this.y > height - this.r) {
             this.ySpeed = -this.ySpeed;
         }
         // if it goes to the end of the sreen restart the game
-        if (this.x < this.r || this.x > width + this.r) {
-            this.reset();
+        if (this.x < this.r ) {
+          aiScore.increment();
+        	this.reset();
+        } else if (this.x > width + this.r) {
+          playerScore.increment();
+          this.reset();
         }
 
         this.x += this.xSpeed;
@@ -42,7 +46,7 @@ class Ball{
     }
 
 
-    
+
     hasHitPlayer(player) {
       if (this.x - this.r <= player.x + player.width && this.x > player.x) {
         if (this.isSameHeight(player)) {
