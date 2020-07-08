@@ -30,7 +30,7 @@ class Ball{
         this.x = width/2;
         this.y = height/2;
 
-        this.xSpeed = random(6, 7);
+        this.xSpeed = random(4, 8);
 
         // determines if it's going left or right
         let isLeft = random(1) > .5;
