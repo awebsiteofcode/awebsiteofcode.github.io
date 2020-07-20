@@ -33,4 +33,5 @@ class Paddle {
             this.down();
         }
     }//end of update
+ paddle.color
 }
