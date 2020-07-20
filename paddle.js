@@ -9,7 +9,7 @@ class Paddle {
 
 
     display() {
-        fill(60,50,200);
+        fill(200,50,200);
         rect(this.x, this.y, 20, 80);
     }
 
