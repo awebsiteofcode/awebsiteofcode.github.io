@@ -38,7 +38,8 @@ function draw() {
   ball.hasHitPlayer(playerPaddle);
   ball.hasHitAi(aiPaddle);
 
-  stroke(255); // gives a white stroke
+noStroke();
+  stroke(100,200,300 ); // gives a white stroke
   line(width/2, 0, width/2, height); // draws a line between two points line(x,y,x1,y1)
 
   playerScore.display();
