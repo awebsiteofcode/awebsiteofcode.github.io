@@ -109,6 +109,9 @@ table, th, td {
   display: table;
   clear: both;
 }
+paddle.color{
+  color:purple
+}
 
 /* Footer */
 .footer {
