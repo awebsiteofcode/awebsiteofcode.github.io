@@ -80,3 +80,18 @@ function processAI() {
           playerPaddle.isDown = false;
       }
   }
+
+
+
+  function moveup() {
+    playerPaddle.isUp = true;
+    playerPaddle.isDown = false;
+  }
+  function movedown() {
+    playerPaddle.isDown = true;
+    playerPaddle.isUp = false;
+  }
+  function stop() {
+    playerPaddle.isUp = false;
+    playerPaddle.isDown = false;
+  }
