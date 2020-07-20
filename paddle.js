@@ -9,7 +9,7 @@ class Paddle {
 
 
     display() {
-        fill(255);
+        fill(60,50,200);
         rect(this.x, this.y, 20, 80);
     }
 
@@ -33,5 +33,7 @@ class Paddle {
             this.down();
         }
     }//end of update
- paddle.color
+
+
+
 }
